@@ -162,7 +162,7 @@ export default function Page() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
               <h3 className="text-lg font-bold mb-4">ShopSmart</h3>
-              <p className="text-gray-400 text-sm">Your one-stop shop for quality products at amazing prices. We've been serving customers since 2010.</p>
+              <p className="text-gray-400 text-sm">Your one-stop shop for quality products at amazing prices. We&apos;ve been serving customers since 2010.</p>
             </div>
             <div>
               <h4 className="font-medium mb-4">Shop</h4>

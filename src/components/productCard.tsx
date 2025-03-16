@@ -30,9 +30,11 @@ export default function ProductCard() {
             </Badge>
             
             <div className="relative aspect-square w-full p-4">
-              <img
+              <Image
                 src={mainPic.src}
                 alt="TV Wall Mount"
+                width={500}
+                height={300}
                 className={`object-contain p-4 ${showDetails ? 'opacity-30' : ''}`}
               />
               <Badge className="absolute bottom-2 right-2 bg-red-500 text-white">20% OFF</Badge>
