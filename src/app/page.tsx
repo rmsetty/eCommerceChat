@@ -126,7 +126,7 @@ export default function Page() {
               <div className="p-8 md:w-2/3">
                 <span className="inline-block px-3 py-1 bg-white text-blue-600 rounded-full text-xs font-semibold mb-4">LIMITED TIME</span>
                 <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">Spring Tech Sale</h3>
-                <p className="text-blue-100 mb-6">Save up to 40% on selected electronics and accessories. Don't miss out on these incredible savings!</p>
+                <p className="text-blue-100 mb-6">Save up to 40% on selected electronics and accessories. Don&apos;t miss out on these incredible savings!</p>
                 <Button className="bg-white text-blue-600 hover:bg-blue-50">
                   Shop the Sale
                 </Button>

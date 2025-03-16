@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from 'react';
-import { Star, Truck, Award, ThumbsUp, X, ChevronLeft, ShoppingCart, Heart, Share2, Send, User } from 'lucide-react';
+import { Star, Truck, Award, ThumbsUp, X, ChevronLeft, ShoppingCart, Send, User } from 'lucide-react';
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
@@ -26,7 +26,7 @@ export default function ProductCard() {
           {/* Top badge section */}
           <div className="relative">
             <Badge className="absolute top-2 left-2 bg-amber-500 hover:bg-amber-600 text-white font-medium px-2 py-1 z-10">
-              <Award className="w-3 h-3 mr-1" /> Amazon's Choice
+              <Award className="w-3 h-3 mr-1" /> Amazon&apos;s Choice
             </Badge>
             
             <div className="relative aspect-square w-full p-4">
@@ -208,7 +208,7 @@ export default function ProductCard() {
               <div className="flex flex-col max-w-[90%]">
                 <div className="text-sm font-medium">Product Assistant</div>
                 <div className="text-sm mt-1 text-gray-800">
-                  This mount has received positive reviews overall. Here's the breakdown:
+                  This mount has received positive reviews overall. Here&apos;s the breakdown:
                 </div>
                 
                 {/* Review bars */}
@@ -260,7 +260,7 @@ export default function ProductCard() {
                     </div>
                     <span className="text-xs text-gray-500 ml-1">Verified Purchase</span>
                   </div>
-                  <p className="text-xs mt-1 italic">"Easy to install and holds my 40-inch TV perfectly. The extending arm moves smoothly and stays in position. Great value for the price!"</p>
+                  <p className="text-xs mt-1 italic">&apos;Easy to install and holds my 40-inch TV perfectly. The extending arm moves smoothly and stays in position. Great value for the price!&apos;</p>
                 </div>
               </div>
             </div>
@@ -280,13 +280,13 @@ export default function ProductCard() {
             
 {/* Assistant message with comparison graph */}
 <div className="flex gap-3">
-  <div className="flex-shrink-0 h-8 w-8 rounded-full bg-amber-400 flex items-center justify-center">
+    <div className="flex-shrink-0 h-8 w-8 rounded-full bg-amber-400 flex items-center justify-center">
     <ShoppingCart className="h-5 w-5 text-black" />
   </div>
   <div className="flex flex-col max-w-[90%]">
     <div className="text-sm font-medium">Product Assistant</div>
     <div className="text-sm mt-1 text-gray-800">
-      Here's how this mount compares to similar products:
+      Here&apos;s how this mount compares to similar products:
     </div>
     
     {/* Bar chart - Improved styling */}
@@ -452,7 +452,7 @@ export default function ProductCard() {
                         </tr>
                         <tr>
                           <td className="p-2 font-medium border-b border-gray-200">Extension Range</td>
-                          <td className="p-2 border-b border-gray-200">2.2" - 14.5" from wall</td>
+                          <td className="p-2 border-b border-gray-200">2.2&apos; - 14.5&apos; from wall</td>
                         </tr>
                         <tr className="bg-gray-50">
                           <td className="p-2 font-medium border-b border-gray-200">Tilt Range</td>
